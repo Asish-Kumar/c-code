@@ -24,7 +24,7 @@ getch();
 }
 
 int algo(int array[],int begin, int mid, int end,int item){
- if(mid==begin && item != array[mid])
+ if(end==begin && item != array[mid])
     return -1;
  if(item == array[mid])
     return mid;
