@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-
+ 
 int arr[10];
 void merge_sort(int,int);
 int[] merge(int[], int, int, int);
