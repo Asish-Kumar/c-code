@@ -20,7 +20,7 @@ void main(){
 		scanf("%d",&arr[i]);
 	}
 	
-	mergeSort(arr, 0, n);
+	mergeSort(arr, 0, n-1);
 	printf("\n\nSorted array is: \n");
 	for(i=0;i<n;i++){
 		printf("%d  ",arr[i]);
